@@ -1,1 +1,1 @@
-ls -R ~ | grep -v '^$' | grep -r 'home' 
+ls -R ~ | grep -v '^$' | grep 'home' | sort -r | head -n 5
