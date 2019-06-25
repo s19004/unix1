@@ -1,1 +1,1 @@
-cut -d : -f 1 /etc/passwd | sort | uniq -r
+cut -d : -f 1 /etc/passwd | sort -r | head -n 5 
