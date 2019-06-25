@@ -11,7 +11,7 @@ Examples:
 END
 
 for file in "$@"
-do 
+do
     if [ -f "$1" ]; then
         # duでファイル容量を求める
          du "$file"
